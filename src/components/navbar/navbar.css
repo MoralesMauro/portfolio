@@ -2,10 +2,12 @@
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: var(--background-navbar)
 }
 
 .navbar-wrapper a {
-  color: #fff;
+  color: var(--color-primary);
+  font-size: 1.5rem;
 }
 
 .navbar-wrapper {
@@ -30,9 +32,9 @@
 
 
 .active a {
-  color: red;
+  color: rgb(79, 46, 178);
 }
 
 .active {
-border-bottom: red 2px solid;
+border-bottom: rgb(79, 46, 178) 2px solid;
 }

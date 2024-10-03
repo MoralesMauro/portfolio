@@ -1,5 +1,5 @@
 .home-container {
-    background-image: url("/src/assets/cloud.png");
+    background-image: var(--background-image);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 
 .home-button__resume {
     cursor: pointer;
-    background-color: rgb(79, 46, 178);
+    background-color: var(--color-secondary);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
