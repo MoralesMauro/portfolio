@@ -19,17 +19,17 @@ const Navbar = ({ handleThemeChange }: Props) => {
         </Link>
         <ul className="navbar-list">
           <li>
-            <Link to={"home"} smooth spy activeClass="active">
+            <Link to={"home"} smooth spy activeClass="active"  className={`${theme}`}>
               Home
             </Link>
           </li>
           <li>
-            <Link to={"about"} smooth spy activeClass="active">
+            <Link to={"about"} smooth spy activeClass="active" className={`${theme}`}>
               About
             </Link>
           </li>
           <li>
-            <Link to={"projects"} smooth spy activeClass="active">
+            <Link to={"projects"} smooth spy activeClass="active" className={`${theme}`}>
               Projects
             </Link>
           </li>

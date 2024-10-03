@@ -8,6 +8,7 @@
 .navbar-wrapper a {
   color: var(--color-primary);
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .navbar-wrapper {
@@ -30,11 +31,11 @@
   cursor: pointer;
 }
 
+.active {
+border-bottom: var(--color-secondary) 2px solid;
 
-.active a {
-  color: rgb(79, 46, 178);
 }
 
-.active {
-border-bottom: rgb(79, 46, 178) 2px solid;
+.navbar-wrapper .active{
+  color: var(--color-secondary);
 }

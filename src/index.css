@@ -83,6 +83,7 @@ a {
   --background-navbar: rgb(55, 65, 81);
   --background-image: url("/src/assets/cloud-dark.png");
   --color-secondary: rgb(159, 135, 228);
+
 }
 
 .theme-light {
@@ -90,4 +91,5 @@ a {
   --background-navbar: rgba(255, 255, 255, 0.9);
   --background-image: url("/src/assets/cloud-light.png");
   --color-secondary: rgb(79, 46, 178);
+
 }
