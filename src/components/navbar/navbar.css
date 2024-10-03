@@ -1,0 +1,38 @@
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar-wrapper a {
+  color: #fff;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80vw;
+  margin: 0 auto;
+  align-items: center;
+  min-height: 7vh;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  padding-right: 20px;
+}
+
+.navbar-wrapper a, .navbar-list li {
+  cursor: pointer;
+}
+
+
+.active a {
+  color: red;
+}
+
+.active {
+border-bottom: red 2px solid;
+}
