@@ -1,0 +1,53 @@
+.home-container {
+    background-image: url("/src/assets/cloud.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.home-container img{
+    width: 700px;
+    height: auto;
+} 
+
+.home-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-main {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.home-button__resume {
+    cursor: pointer;
+    background-color: rgb(79, 46, 178);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-top: 30px;
+    max-width: 150px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.home-button__resume:hover {
+    background-color: rgba(79, 46, 178, 0.9);
+}
+
+.home-main img {
+    width: 40px;
+    height: auto;
+}
+
+.home-link-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
