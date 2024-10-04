@@ -78,18 +78,22 @@ a {
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.theme-dark {
-  --color-primary: white;
-  --background-navbar: rgb(55, 65, 81);
-  --background-image: url("/src/assets/cloud-dark.png");
-  --color-secondary: rgb(159, 135, 228);
-
-}
-
 .theme-light {
   --color-primary: black;
-  --background-navbar: rgba(255, 255, 255, 0.9);
+  --background-color-primary: rgb(235, 251, 255);
   --background-image: url("/src/assets/cloud-light.png");
   --color-secondary: rgb(79, 46, 178);
+  --navbar-text-color: black;
+  --navbar-text-color-active: rgb(79, 46, 178);
+  --background-color-secondary: white;
+}
 
+.theme-dark {
+  --color-primary: white;
+  --background-color-primary: rgb(55, 65, 81);
+  --background-image: url("/src/assets/cloud-dark.png");
+  --color-secondary: rgb(159, 135, 228);
+  --navbar-text-color: rgb(159, 135, 228);
+  --navbar-text-color-active: white;
+  --background-color-secondary: rgb(186, 186, 186);
 }

@@ -1,0 +1,22 @@
+.skill-card-container {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+  max-width: 200px;
+}
+
+.skill-card-container p {
+  font-size: 20px;
+  color: black;
+}
+
+.skill-card-container img {
+  max-width: 50px;
+  height: auto;
+}
