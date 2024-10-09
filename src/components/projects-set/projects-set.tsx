@@ -4,6 +4,13 @@ import "./projects-set.css";
 
 export const ProjectsSet = () => {
   return (
-    <div className="projects-set-container">{projectsSet.map(el=> <ProjectsCard key={el.id} el={el}/>)}</div>
-  )
-}
+    <>
+      <h2 className="projects-set-title">My Projects</h2>
+      <div className="projects-set-container">
+        {projectsSet.map((el) => (
+          <ProjectsCard key={el.id} el={el} />
+        ))}
+      </div>
+    </>
+  );
+};

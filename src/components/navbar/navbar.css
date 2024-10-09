@@ -3,6 +3,7 @@
   width: 100%;
   top: 0;
   background-color: var(--background-color-primary);
+  z-index: 1000;
 }
 
 .navbar-wrapper a {

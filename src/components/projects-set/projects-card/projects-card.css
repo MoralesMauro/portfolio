@@ -1,4 +1,4 @@
-.projects-card-container{
+/* .projects-card-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,5 +20,59 @@
     padding: 1rem;
     background-color: #f5f5f5;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
 
+.projects-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* La tarjeta ocupa todo el ancho del contenedor padre */
+    height: auto; /* Ajuste dinámico de la altura */
+    padding: 1rem; /* Padding interno */
+    background-color: #f5f5f5; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 1rem; /* Espaciado externo */
+}
+
+.project-card-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Asegúrate de que el detalle de la tarjeta use todo el ancho */
+    height: auto; /* Permitir que se ajuste dinámicamente */
+    padding: 1rem; /* Padding interno */
+    background-color: #f5f5f5; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+iframe {
+    width: 100%; /* El iframe ocupa todo el ancho de su contenedor */
+    max-width: 100%; /* Limitar el ancho máximo al 100% del contenedor */
+    height: auto; /* Ajustar la altura automáticamente */
+    aspect-ratio: 16/9; /* Mantener la proporción del video */
+}
+
+/* Media Queries para ajustar en pantallas más pequeñas */
+@media (max-width: 1024px) {
+    .projects-card-container {
+        max-width: 90%; /* Usar hasta el 90% del ancho de la pantalla en móviles */
+        margin: 1rem auto; /* Centrando el contenedor */
+    }
+  
+    h3, h2 {
+        font-size: 1.5rem; /* Reducir el tamaño de las fuentes en pantallas pequeñas */
+    }
+  
+    h3 {
+        font-size: 1.2rem; /* Ajuste adicional para el h3 */
+    }
+  
+    iframe {
+        width: 100%; /* Mantener el iframe responsivo */
+        height: auto; /* Ajustar la altura automáticamente */
+    }
 }

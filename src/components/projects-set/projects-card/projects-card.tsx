@@ -15,14 +15,15 @@ const ProjectsCard = ({ el }: ProjectsCardProps) => {
   return (
     <div className="projects-card-container">
       <div className="project-card-detail">
-        <h1>{el.title}</h1>
-        <h2>{el.description}</h2>
-        <h3>{el.link}</h3>
         <iframe
-          width="420"
-          height="315"
+          width="100%" 
+          height="auto"
           src={el.video}
+          allowFullScreen
         ></iframe>
+        <h3>{el.title}</h3>
+        <p>{el.description}</p>
+        <h3>{el.link}</h3>
       </div>
     </div>
   );

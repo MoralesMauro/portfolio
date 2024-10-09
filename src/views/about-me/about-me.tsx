@@ -2,12 +2,14 @@ import { useContext } from "react";
 import SkillSet from "../../components/skill-set/skill-set";
 import "./about-me.css";
 import { ThemeContext } from "../../context/context";
+import { Fade } from "react-awesome-reveal";
 
 const AboutMe = () => {
   const theme = useContext(ThemeContext);
 
   return (
     <section id="about" className={`${theme} about-container`}>
+      <Fade direction="up" triggerOnce>
       <div className="wrapper">
         <h3>About Me</h3>
         <p>
@@ -18,6 +20,7 @@ const AboutMe = () => {
         <h3>Skills</h3>
         <SkillSet />
       </div>
+      </Fade>
     </section>
   );
 };

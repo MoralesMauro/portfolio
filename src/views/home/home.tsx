@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import "./home.css";
 import { ThemeContext } from "../../context/context";
+import Reveal from "react-awesome-reveal";
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -9,8 +10,12 @@ const Home = () => {
     <section id="home" className={`${theme} home-container`}>
       <div className="wrapper home-wrapper">
         <main className="home-main">
-          <h1>Hi, I am Mauro</h1>
-          <h2>Full-Stack Java developer</h2>
+          <Reveal cascade duration={1000} triggerOnce>
+            <h1>Hi, I am Mauro</h1>
+          </Reveal>
+          <Reveal cascade delay={500} duration={1000} triggerOnce>
+            <h2>Full-Stack developer</h2>
+          </Reveal>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
             aperiam repellendus voluptas debitis unde commodi ea quasi corrupti
