@@ -30,10 +30,10 @@ const Home = () => {
               href="https://www.linkedin.com/in/mauro-alejandro-morales-293b38270/"
               target="_blank"
             >
-              <img src="src/assets/linkedin.svg" />
+              <img src="../../src/assets/linkedin.svg" />
             </a>
             <a href="mailto:mauroale2501@gmail.com" target="_blank">
-              <img src="src/assets/gmail.svg" />
+              <img src="../../src/assets/gmail.svg" />
             </a>
           </div>
           <a
