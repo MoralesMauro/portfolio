@@ -16,8 +16,6 @@
 .navbar-wrapper {
   display: flex;
   justify-content: space-between;
-  max-width: 80vw;
-  margin: 0 auto;
   align-items: center;
   min-height: 7vh;
 }

@@ -81,19 +81,19 @@ a {
 .theme-light {
   --color-primary: black;
   --background-color-primary: rgb(235, 251, 255);
+  --background-color-secondary: white;
   --background-image: url("/src/assets/cloud-light.png");
   --color-secondary: rgb(79, 46, 178);
   --navbar-text-color: black;
   --navbar-text-color-active: rgb(79, 46, 178);
-  --background-color-secondary: white;
 }
 
 .theme-dark {
   --color-primary: white;
   --background-color-primary: rgb(55, 65, 81);
+  --background-color-secondary: rgb(186, 186, 186);
   --background-image: url("/src/assets/cloud-dark.png");
   --color-secondary: rgb(159, 135, 228);
   --navbar-text-color: rgb(159, 135, 228);
   --navbar-text-color-active: white;
-  --background-color-secondary: rgb(186, 186, 186);
 }

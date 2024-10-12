@@ -13,23 +13,23 @@ const Navbar = ({ handleThemeChange }: Props) => {
 
   return (
     <div className={`${theme} navbar-container`}>
-      <div className="navbar-wrapper">
+      <div className="wrapper navbar-wrapper">
         <Link to={"home"} smooth>
           Mauro
         </Link>
         <ul className="navbar-list">
           <li>
-            <Link to={"home"} smooth spy activeClass="active"  className={`${theme}`}>
+            <Link to={"home"} smooth spy activeClass="active" >
               Home
             </Link>
           </li>
           <li>
-            <Link to={"about"} smooth spy activeClass="active" className={`${theme}`}>
+            <Link to={"about"} smooth spy activeClass="active">
               About
             </Link>
           </li>
           <li>
-            <Link to={"projects"} smooth spy activeClass="active" className={`${theme}`}>
+            <Link to={"projects"} smooth spy activeClass="active">
               Projects
             </Link>
           </li>
