@@ -20,7 +20,7 @@ const ProjectsCard = ({ el }: ProjectsCardProps) => {
           height="auto"
           src={el.video}
           allowFullScreen
-        ></iframe>
+        />
         <h3>{el.title}</h3>
         <p>{el.description}</p>
         <h3>{el.link}</h3>
